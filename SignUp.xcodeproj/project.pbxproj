@@ -14,6 +14,8 @@
 		F6B0B99C1E5D530D006304C2 /* SignUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6B0B99A1E5D530D006304C2 /* SignUp.xcdatamodeld */; };
 		F6B0B99E1E5D530D006304C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B0B99D1E5D530D006304C2 /* Assets.xcassets */; };
 		F6B0B9A11E5D530D006304C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B0B99F1E5D530D006304C2 /* LaunchScreen.storyboard */; };
+		F6B0B9AB1E5D59C2006304C2 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B0B9AA1E5D59C2006304C2 /* SignUpViewController.m */; };
+		F6B0B9AF1E5D5BEC006304C2 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B0B9AE1E5D5BEC006304C2 /* SignInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		F6B0B99D1E5D530D006304C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B0B9A01E5D530D006304C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6B0B9A21E5D530D006304C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B0B9A91E5D59C2006304C2 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		F6B0B9AA1E5D59C2006304C2 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		F6B0B9AD1E5D5BEC006304C2 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		F6B0B9AE1E5D5BEC006304C2 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,8 @@
 				F6B0B9921E5D530D006304C2 /* AppDelegate.m */,
 				F6B0B9941E5D530D006304C2 /* ViewController.h */,
 				F6B0B9951E5D530D006304C2 /* ViewController.m */,
+				F6B0B9AC1E5D59DE006304C2 /* SignIn */,
+				F6B0B9A81E5D59A6006304C2 /* SignUp */,
 				F6B0B9971E5D530D006304C2 /* Main.storyboard */,
 				F6B0B99D1E5D530D006304C2 /* Assets.xcassets */,
 				F6B0B99F1E5D530D006304C2 /* LaunchScreen.storyboard */,
@@ -80,6 +88,24 @@
 				F6B0B98F1E5D530D006304C2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6B0B9A81E5D59A6006304C2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0B9A91E5D59C2006304C2 /* SignUpViewController.h */,
+				F6B0B9AA1E5D59C2006304C2 /* SignUpViewController.m */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		F6B0B9AC1E5D59DE006304C2 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0B9AD1E5D5BEC006304C2 /* SignInViewController.h */,
+				F6B0B9AE1E5D5BEC006304C2 /* SignInViewController.m */,
+			);
+			name = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6B0B9961E5D530D006304C2 /* ViewController.m in Sources */,
+				F6B0B9AB1E5D59C2006304C2 /* SignUpViewController.m in Sources */,
 				F6B0B99C1E5D530D006304C2 /* SignUp.xcdatamodeld in Sources */,
 				F6B0B9931E5D530D006304C2 /* AppDelegate.m in Sources */,
+				F6B0B9AF1E5D5BEC006304C2 /* SignInViewController.m in Sources */,
 				F6B0B9901E5D530D006304C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
